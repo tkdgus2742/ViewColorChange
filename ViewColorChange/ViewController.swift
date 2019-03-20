@@ -22,17 +22,21 @@ class ViewController: UIViewController {
     }
     @IBAction func b1(_ sender: Any) {
         //redv.backgroundColor = UIColor.white
-        redv.isHidden = true
+//        redv.isHidden = true
+        redv.alpha = 0.5
+        
     }
     
     @IBAction func b2(_ sender: Any) {
         //bluev.backgroundColor = UIColor.white
-        bluev.isHidden = true
+//        bluev.isHidden = true
+        bluev.alpha = 0.5
     }
     
     @IBAction func b3(_ sender: Any) {
         //greenv.backgroundColor = UIColor.white
-        greenv.isHidden = true
+//        greenv.isHidden = true
+        greenv.alpha = 0.5
     }
     
 }
